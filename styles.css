@@ -66,8 +66,10 @@ header{
 }
 nav {
     display: flex;
-    width: 100%;
+    width:100%;
     justify-content: flex-end;
+
+    
 
 
 }
@@ -80,10 +82,13 @@ nav li{
 #hero{
     height: 100vh;
     overflow:hidden;
+    padding-left: 10%;
+    padding-right: 10%;
 
 }
 #hero-image{
-    background-image:url(./_resources/images/image1.jpg);
+/*    background-image:url(./_resources/images/image1.jpg);*/
+    background-color: aqua;
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
