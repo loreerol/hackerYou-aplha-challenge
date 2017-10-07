@@ -47,53 +47,76 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* END RESET */
-header{
-    padding-left: 10%;
-    padding-right: 10%;
-    display: flex;
-    position: fixed;
-    background-color: white;
-    width: 100%;
-    
-}
 
+
+
+
+
+
+
+body{
+   padding-left: 5%;
+    padding-right: 5%;
+}
+ 
 #icon{
-    display: inlne;
-    padding:10px;
-    display: flex;
+    display: inline-flex;
+    
 }
 nav {
     display: flex;
-    width:100%;
-    justify-content: flex-end;
-
-    
-
-
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
 }
 nav ul{
+    display: inline-flex;
+    align-items: center;
+    
+    
 }
 nav li{
-    display: inline;
     text-transform: uppercase;
+   padding: 1em;
+    font-family: 'Josefin Sans', sans-serif;
 }
 #hero{
-    height: 100vh;
     overflow:hidden;
-    padding-left: 10%;
-    padding-right: 10%;
-
+    height: 80vh;
 }
 #hero-image{
-/*    background-image:url(./_resources/images/image1.jpg);*/
+    background-image:url(./_resources/images/image1.jpg);
+    background-size:cover;
     background-color: aqua;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100%;
+    height: inherit;
+}
+#hero div{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+#hero div p{
+    align-self: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+}
+#hero div p:first-child{
+    font-size: 3em;
+    letter-spacing: 20px;
 }
 
-#main{
-    height: 500vh;
+#home{
+    margin-top: 10vh;
+    background-color: aqua;
 }
