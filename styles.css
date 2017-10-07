@@ -49,3 +49,46 @@ table {
 }
 
 /* END RESET */
+header{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    
+}
+
+#icon{
+    display: inlne;
+    padding:10px;
+    display: flex;
+}
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+
+
+}
+nav ul{
+}
+nav li{
+    display: inline;
+    text-transform: uppercase;
+}
+#hero{
+    height: 100vh;
+    overflow:hidden;
+
+}
+#hero-image{
+    background-image:url(./_resources/images/image1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+#main{
+    height: 500vh;
+}
