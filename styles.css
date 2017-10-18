@@ -253,7 +253,6 @@ text-transform: uppercase;
     margin: 50px 0px;
     display: flex;
     padding: 20px;
-    flex-wrap: wrap;
 }
 #our-services{
     flex-grow: 2;
@@ -316,3 +315,64 @@ display: flex;
     font-family: 'Crimson Text', serif;
     color: darkgrey;
 }
+#blog{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#blog-wrapper{
+    display: flex;
+}
+.blog-item{
+display: flex;
+    height: 40vh;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 50px;
+
+}
+#blog-web{
+    height: 100%;
+    background-image:url(./_resources/images/image9.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: inherit;
+
+}
+#blog-branding{
+   height: 100%;
+    background-image:url(./_resources/images/image10.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: inherit;
+}
+#blog-culture{
+    height: 100%;
+    background-image:url(./_resources/images/image11.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: inherit;
+}
+
+.blog-item p:nth-child(2){
+    color: pink;
+    padding: 2%;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: .8em
+}
+.blog-item p:nth-child(3){
+    padding: 2%;
+ font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.blog-item p:nth-child(4){
+    padding: 2%;
+     font-family: 'Crimson Text', serif;
+    color: darkgrey;
+}
+
