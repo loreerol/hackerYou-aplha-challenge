@@ -55,7 +55,7 @@ table {
 
 
 
-body{
+#main{
    padding-left: 5%;
     padding-right: 5%;
 }
@@ -64,18 +64,37 @@ body{
     display: inline-flex;
     
 }
+#fixed-nav{
+position: fixed;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
 nav {
+  
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    margin-top: 1.5em;
+    margin-top: 1em;
     margin-bottom: 1em;
+    align-items: flex-end;
+
+}
+nav di{
+    width: 100vw;
+
+    
+}
+nav img{
+margin-left: 5%;
+    position: absolut;
+    display:inline 
+    
 }
 nav ul{
     display: inline-flex;
     align-items: center;
-    
-    
 }
 nav li{
     text-transform: uppercase;
@@ -148,21 +167,21 @@ text-transform: uppercase;
     line-height: 1.5;
     text-align: center;
 }
-#work{
+#work, #work-w{
     margin-top: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-transform: uppercase;
 }
-#work p:first-child{
+#work p:first-child, #work-w p:first-child{
     font-size: 1.5em;
     letter-spacing: 1px;
      font-family: 'Josefin Sans', sans-serif;
     margin: 10px;
 }
     
-#work p:nth-child(2){
+#work p:nth-child(2), #work-w p:nth-child(2){
        font-family: 'Crimson Text', serif;
     text-transform: none;
     margin: 2em 10%;
@@ -375,4 +394,17 @@ display: flex;
      font-family: 'Crimson Text', serif;
     color: darkgrey;
 }
-
+#contact{
+display: flex;
+    align-content: center;
+    justify-content: center
+}
+#work-w{
+    width: 50%;
+    display: flex;
+    height: auto;
+    border: 2px solid darkgrey;
+    padding: 50px 40px;
+    text-align: center;
+    margin: 10%;
+}
