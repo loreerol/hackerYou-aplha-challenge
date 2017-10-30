@@ -61,7 +61,7 @@ table {
 }
  
 #icon{
-    display: inline-flex;
+    margin-left: 5%
     
 }
 #fixed-nav{
@@ -100,7 +100,12 @@ nav li{
     text-transform: uppercase;
    padding: 1em;
     font-family: 'Josefin Sans', sans-serif;
+    
 }
+li:hover{
+    color: pink
+}
+
 #hero{
     overflow:hidden;
     height: 80vh;
@@ -264,6 +269,10 @@ text-transform: uppercase;
     text-transform: uppercase;
     font-family: 'Josefin Sans', sans-serif;
 }
+.button:hover{
+    background-color: black;
+    color: white
+}
 .button-wraper{
     display: flex;
     justify-content: center;
@@ -391,11 +400,11 @@ display: flex;
 }
 .blog-item p:nth-child(4){
     padding: 2%;
-     font-family: 'Crimson Text', serif;
+    font-family: 'Crimson Text', serif;
     color: darkgrey;
 }
 #contact{
-display: flex;
+    display: flex;
     align-content: center;
     justify-content: center
 }
